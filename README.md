@@ -9,5 +9,5 @@ Most important features applied:
 
 Take a Look -->
 
-Website: https://p3-testportfolio.netlify.app/
+Website: https://p3-react-cocktaildb.netlify.app/
 
