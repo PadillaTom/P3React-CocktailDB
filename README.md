@@ -1,9 +1,9 @@
 # P3: Cocktail DB
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Most important features applied:
+  - Npx create-react-app
   - API from: https://www.thecocktaildb.com/
   - React Router Dom
-  - Hooks / HTTP Requests
+  - Hooks / HTTP Requests / UseEffect / UseRef
   
 
 Take a Look -->
