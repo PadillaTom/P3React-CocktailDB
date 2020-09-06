@@ -1,5 +1,23 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../src/logo.svg';
+
+// Main
 
 export default function Navbar() {
-  return <h1>navbar component</h1>;
+  return (
+    <nav className='navbar'>
+      <div className='nav-center'>
+        <img src={logo} alt='Db' className='logo' />
+        <ul className='nav-links'>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
+          <li>
+            <Link to='/about'>About</Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
